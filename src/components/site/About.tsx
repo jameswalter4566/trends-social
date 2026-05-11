@@ -1,8 +1,8 @@
 const STATS = [
-  { v: "100+", l: "Global Brands", s: "Startups, local businesses & Fortune 500." },
-  { v: "200K+", l: "Deliverables", s: "Shipped since we started." },
-  { v: "500+", l: "Creatives & Talent", s: "Production, influencers, models & more." },
-  { v: "150K+", l: "Projects & Events", s: "Across the world." },
+  { v: "1M+", l: "Active Creators", s: "Posting, streaming & earning daily." },
+  { v: "10K+", l: "Active Trends", s: "New challenges launching every hour." },
+  { v: "500+", l: "Brand Partners", s: "Launching viral UGC campaigns." },
+  { v: "$50M+", l: "Creator Payouts", s: "Paid out to creators since launch." },
 ];
 
 export const About = () => {
@@ -11,19 +11,19 @@ export const About = () => {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-xs font-semibold tracking-[0.3em] text-primary mb-4">ABOUT AURA</p>
+            <p className="text-xs font-semibold tracking-[0.3em] text-primary mb-4">ABOUT TRENDS</p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
-              The bridge between brands and <span className="text-gradient-primary">creators.</span>
+              Where viral moments become <span className="text-gradient-primary">real income.</span>
             </h2>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-4">
-              Aura Media is a boutique agency built for brands who need authentic,
-              high-performing content at scale. We source the right creators,
-              produce the right content, and run the campaigns that move metrics.
+              Trends is a social discovery platform built around viral culture, creator monetization,
+              and live trend participation. Users can post public content, join trending challenges,
+              upload exclusive content for subscribers, livestream, and connect directly with their audience.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              From UGC and influencer partnerships to strategic PR and full-funnel
-              campaigns, we deliver work that's bold, effective, and built to last.
-              You bring the brief. We deliver the story.
+              The platform transforms trends into interactive communities where creators can grow,
+              compete, and earn from their viral moments. Combined with AI-powered creator tools
+              and automated monetization features, Trends creates a new type of creator economy.
             </p>
           </div>
 

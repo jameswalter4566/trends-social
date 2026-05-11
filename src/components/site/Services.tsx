@@ -2,18 +2,18 @@ import { useEffect, useState, useRef } from "react";
 
 const SERVICES = [
   {
-    title: "Creator Sourcing",
-    desc: "Tap into the largest network of vetted creators, streamers, celebrities, and influencers. We match your brand to the perfect talent — by niche, audience, performance history, and budget.",
+    title: "Trend Channels",
+    desc: "Join live trend channels where creators participate in challenges, story times, viral formats, and sponsored campaigns. Climb leaderboards, earn payouts, and gain discoverability through our trending system.",
     image: "/services/creator-sourcing.jpg",
   },
   {
-    title: "UGC & Content Production",
-    desc: "Authentic, conversion-ready user-generated content built for paid ads, organic, and retail. From single deliverables to monthly content engines — fully managed end-to-end.",
+    title: "Premium Content",
+    desc: "Upload exclusive content for subscribers, offer premium messaging, and monetize your audience directly. Build a sustainable income from your most engaged fans.",
     image: "/services/ugc-content.jpg",
   },
   {
-    title: "Influencer Campaigns & PR",
-    desc: "Full-service campaign management: strategy, casting, briefing, contracts, content review, posting, reporting. Plus targeted PR to amplify reach across the channels that matter.",
+    title: "Brand Campaigns",
+    desc: "Brands can sponsor trends and launch scalable UGC campaigns directly through the platform, allowing hundreds of creators to participate organically in viral campaigns.",
     image: "/services/influencer-pr.jpg",
   },
 ];
@@ -54,7 +54,7 @@ export const Services = () => {
 
   return (
     <section
-      id="services"
+      id="features"
       ref={sectionRef}
       className="relative"
       style={{ height: "200vh" }}
@@ -66,11 +66,11 @@ export const Services = () => {
             {/* Left side - Header */}
             <div className="text-center lg:text-left">
               <p className="text-sm md:text-base font-semibold tracking-[0.3em] text-primary mb-6">
-                OUR SERVICES
+                PLATFORM FEATURES
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6 lg:mb-10 leading-tight">
-                Built for brands that need{" "}
-                <span className="text-gradient-primary">content that converts.</span>
+                Turn trends into{" "}
+                <span className="text-gradient-primary">income.</span>
               </h2>
 
               {/* Service titles - clickable with highlight */}

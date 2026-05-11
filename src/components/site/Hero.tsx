@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { CreatorCarousel } from "./CreatorCarousel";
 
-const WORDS = ["Influencers", "Artists", "DJ's", "Streamers", "Clippers"];
+const WORDS = ["Trends", "Challenges", "Livestreams", "Collabs", "Virality"];
 
 export const Hero = () => {
   const [wordIndex, setWordIndex] = useState(0);
@@ -30,7 +30,7 @@ export const Hero = () => {
             textTransform: "uppercase",
           }}
         >
-          ACCESS THE BIGGEST NETWORK OF
+          MONETIZE YOUR SOCIAL FEED WITH
         </p>
 
         {/* Large rotating word - centered */}
@@ -53,26 +53,23 @@ export const Hero = () => {
           </span>
         </h1>
 
-        {/* Small bottom text */}
+        {/* Subheadline */}
         <p
+          className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg text-white/80 mt-4"
           style={{
-            fontFamily: "'Rifton Norm', sans-serif",
-            fontSize: "clamp(14px, 2.5vw, 24px)",
-            letterSpacing: "0.05em",
-            color: "rgb(255, 255, 255)",
-            margin: 0,
-            textTransform: "uppercase",
+            fontFamily: "Satoshi, sans-serif",
+            lineHeight: 1.6,
           }}
         >
-          FOR YOUR BRAND
+          Earn by posting, create exclusive content, get paid through premium messaging, and land brand sponsorships — all in one platform.
         </p>
 
         <div className="mt-4 sm:mt-6 md:mt-8 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
           <Button size="default" className="bg-white text-black hover:bg-white/90 font-semibold px-4 sm:px-6 rounded-full text-sm sm:text-base">
-            Join as a Brand
+            Start Creating
           </Button>
           <Button size="default" className="bg-white text-black hover:bg-white/90 font-semibold px-4 sm:px-6 rounded-full text-sm sm:text-base">
-            Join as a Creator
+            Launch a Campaign
           </Button>
         </div>
       </div>
